@@ -5,8 +5,8 @@
   "main": "./src/index.js",
   "scripts": {
     "start": "npm run dev:build:server",
-    "dev:build:server": "webpack --config webpack.server.js --mode development",
-    "serve": "node --inspect-brk ./build/bundle.js"
+    "dev:build:server": "webpack --config webpack.server.js --mode development --watch",
+    "dev:server": "nodemon --watch build --exec \"node ./build/bundle.js\""
   },
   "repository": {
     "type": "git",
@@ -32,5 +32,8 @@
     "react-dom": "^16.7.0",
     "webpack": "^4.28.2",
     "webpack-cli": "^3.1.2"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.9"
   }
 }

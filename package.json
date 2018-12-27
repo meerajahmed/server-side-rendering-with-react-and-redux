@@ -1,0 +1,23 @@
+{
+  "name": "server-side-rendering-with-react-and-redux",
+  "version": "1.0.0",
+  "description": "Learning server side rendering with react and redux",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/meerajahmed/server-side-rendering-with-react-and-redux.git"
+  },
+  "keywords": [
+    "react",
+    "redux"
+  ],
+  "author": "Meeraj Ahmed",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/meerajahmed/server-side-rendering-with-react-and-redux/issues"
+  },
+  "homepage": "https://github.com/meerajahmed/server-side-rendering-with-react-and-redux#readme"
+}

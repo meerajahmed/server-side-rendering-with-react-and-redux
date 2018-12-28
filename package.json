@@ -4,7 +4,7 @@
   "description": "Learning server side rendering with react and redux",
   "main": "./src/index.js",
   "scripts": {
-    "start": "npm run dev:build:server",
+    "start": "npm run dev:server",
     "dev:build:server": "webpack --config webpack.server.js --mode development --watch",
     "dev:build:client": "webpack --config webpack.client.js --mode development --watch",
     "dev:server": "nodemon --watch build --exec \"node ./build/bundle.js\""
@@ -35,6 +35,7 @@
     "webpack-cli": "^3.1.2"
   },
   "devDependencies": {
+    "html-webpack-plugin": "^3.2.0",
     "nodemon": "^1.18.9"
   }
 }

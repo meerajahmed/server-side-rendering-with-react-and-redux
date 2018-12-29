@@ -12,4 +12,4 @@ const config = {
   }
 };
 
-module.exports = merge(config, baseConfig);;
+module.exports = merge(baseConfig, config);;

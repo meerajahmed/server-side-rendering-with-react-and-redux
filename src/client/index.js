@@ -4,6 +4,13 @@
 
 import React from 'react';
 import ReactDOM from 'react-dom';
-import Home from './components/home';
+import {BrowserRouter} from 'react-router-dom';
 
-ReactDOM.hydrate(<Home />, document.getElementById('root'));
+import Routes from '../routes';
+
+ReactDOM.hydrate(
+  <BrowserRouter>
+    <Routes />
+  </BrowserRouter>
+  , document.getElementById('root')
+);
